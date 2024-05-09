@@ -21,10 +21,15 @@ const Header = () => {
 
   Events.scrollEvent.register("end", (to, element) => {
     console.log("end", to, element);
+
     if (to != "Contact") {
       // console.log(screen.availWidth);
       // console.log(screen.width);
       if (screen.width <= 767) setIsMenuOpen(!isMenuOpen);
+    } else {
+      if (isMenuOpen) {
+        setIsMenuOpen(!isMenuOpen);
+      }
     }
   });
 
