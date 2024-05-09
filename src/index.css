@@ -669,8 +669,8 @@ body {
   }
 }
 .scroll-to-top {
-  position: static;
-  background-color: #d3d3d3;
+  position: static !important;
+  background-color: #d3d3d3 !important;
 }
 .scroll-top svg {
   /* color: #8750f7;
