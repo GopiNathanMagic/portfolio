@@ -21,7 +21,11 @@ const Header = () => {
 
   Events.scrollEvent.register("end", (to, element) => {
     console.log("end", to, element);
-    // setIsMenuOpen(!isMenuOpen);
+    if (to != "Contact") {
+      // console.log(screen.availWidth);
+      // console.log(screen.width);
+      if (screen.width <= 767) setIsMenuOpen(!isMenuOpen);
+    }
   });
 
   // Function to toggle menu open/close
