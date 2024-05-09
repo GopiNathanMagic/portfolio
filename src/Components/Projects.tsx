@@ -22,8 +22,8 @@ const Projects = () => {
           <div className="project-title">
             <h2>My Recent Projects</h2>
             <p>
-              We put your ideas and thus your wishes in the form of a unique web
-              project that inspires you and you customers.
+              I've leveraged these technologies in various projects to create
+              dynamic and visually appealing web applications.
             </p>
           </div>
           <div className="project-inner">
