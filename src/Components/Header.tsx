@@ -21,7 +21,7 @@ const Header = () => {
 
   Events.scrollEvent.register("end", (to, element) => {
     console.log("end", to, element);
-    setIsMenuOpen(!isMenuOpen);
+    // setIsMenuOpen(!isMenuOpen);
   });
 
   // Function to toggle menu open/close
