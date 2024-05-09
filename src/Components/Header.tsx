@@ -1,6 +1,6 @@
 // import React from "react";
 import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Events, Link } from "react-scroll";
 import logo from "/logo_portfolio.png";
 
 const Header = () => {
@@ -18,6 +18,11 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  Events.scrollEvent.register("end", (to, element) => {
+    console.log("end", to, element);
+    setIsMenuOpen(!isMenuOpen);
+  });
 
   // Function to toggle menu open/close
   const toggleMenu = () => {
