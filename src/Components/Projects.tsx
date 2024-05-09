@@ -22,8 +22,8 @@ const Projects = () => {
           <div className="project-title">
             <h2>My Recent Projects</h2>
             <p>
-              I've leveraged these technologies in various projects to create
-              dynamic and visually appealing web applications.
+              I've utilized front-end technologies across multiple projects to
+              craft dynamic and visually captivating web applications.
             </p>
           </div>
           <div className="project-inner">
