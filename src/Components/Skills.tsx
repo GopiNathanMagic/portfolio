@@ -57,17 +57,17 @@ const Skills = () => {
               <div className="skill-boxes">
                 <div className="skill-box">
                   <div className="icon-box">
-                    <img src={jqlogo} alt="html-logo" />
+                    <img src={jlogo} alt="html-logo" />
                   </div>
-                  <p>jQuery</p>
+                  <p>JavaScript</p>
                 </div>
               </div>
               <div className="skill-boxes">
                 <div className="skill-box">
                   <div className="icon-box">
-                    <img src={jlogo} alt="html-logo" />
+                    <img src={jqlogo} alt="html-logo" />
                   </div>
-                  <p>JavaScript</p>
+                  <p>jQuery</p>
                 </div>
               </div>
               <div className="skill-boxes">

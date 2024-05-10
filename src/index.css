@@ -740,6 +740,7 @@ p.success-msg {
   height: 4px;
   background: #fff;
   transition: transform 0.3s ease-in-out;
+  border-radius: 3px;
 }
 
 .menu-toggle.open span:nth-child(1) {
