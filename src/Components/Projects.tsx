@@ -54,26 +54,6 @@ const Projects = () => {
             </motion.div>
             <div className="project-box">
               <div className="image-box">
-                <img src={bs} alt="project" />
-              </div>
-              <a
-                href="https://gopinathanmagic.github.io/bootstrap_project/"
-                target="_blank"
-              >
-                <div className="content-box">
-                  <h3>Bootstrap Home Page</h3>
-                  <p>HTML5 | CSS3 | Bootstrap </p>
-                  <a
-                    href="https://gopinathanmagic.github.io/bootstrap_project/"
-                    target="_blank"
-                  >
-                    <BsArrowUpRight />
-                  </a>
-                </div>
-              </a>
-            </div>
-            <div className="project-box">
-              <div className="image-box">
                 <img src={magic} alt="project" />
               </div>
               <a
@@ -92,6 +72,27 @@ const Projects = () => {
                 </div>
               </a>
             </div>
+            <div className="project-box">
+              <div className="image-box">
+                <img src={bs} alt="project" />
+              </div>
+              <a
+                href="https://gopinathanmagic.github.io/bootstrap_project/"
+                target="_blank"
+              >
+                <div className="content-box">
+                  <h3>Bootstrap Home Page</h3>
+                  <p>HTML5 | CSS3 | Bootstrap </p>
+                  <a
+                    href="https://gopinathanmagic.github.io/bootstrap_project/"
+                    target="_blank"
+                  >
+                    <BsArrowUpRight />
+                  </a>
+                </div>
+              </a>
+            </div>
+
             <motion.div
               initial="hidden"
               whileInView="visible"
