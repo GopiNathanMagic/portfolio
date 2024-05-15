@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Banner = () => {
   const handleDownloadResume = () => {
     // Replace 'resume.pdf' with the actual URL or path to your resume file
-    const resumeUrl = "https://beige-davina-32.tiiny.site/";
+    const resumeUrl = "https://apricot-starla-97.tiiny.site/";
     // Initiates the download of the resume file
     window.open(resumeUrl, "_blank");
   };
