@@ -713,7 +713,6 @@ p.success-msg {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   background-color: #050709;
   padding: 15px 0;
-  z-index: 100;
   transition: 0.3s;
   background-color: #140c1c;
 }
