@@ -1,6 +1,6 @@
 // import React from "react";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import banner from "/Gopinathan-portfolio-one.png";
+import banner from "/Gopinathan_Photo_New.png";
 import { FiDownload } from "react-icons/fi";
 import wave from "/wave.png";
 import { motion } from "framer-motion";
@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const Banner = () => {
   const handleDownloadResume = () => {
     // Replace 'resume.pdf' with the actual URL or path to your resume file
-    const resumeUrl = "https://orange-mathilde-77.tiiny.site/";
+    const resumeUrl = "https://gold-philis-1.tiiny.site/";
     // Initiates the download of the resume file
     window.open(resumeUrl, "_blank");
   };
@@ -58,8 +58,8 @@ const Banner = () => {
               <div className="banner-para">
                 <p>
                   Enthusiastic junior front-end developer with a comprehensive
-                  Six month training in HTML5, CSS3, Bootstrap, JavaScript and
-                  React JS.
+                  Six month training in HTML5, CSS3, Bootstrap, Tailwind CSS,
+                  JavaScript and React JS.
                 </p>
               </div>
               <div className="banner-btn">
