@@ -59,7 +59,7 @@ const Banner = () => {
                 <p>
                   Enthusiastic junior front-end developer with a comprehensive
                   Six month training in HTML5, CSS3, Bootstrap, Tailwind CSS,
-                  JavaScript and React JS changes.
+                  JavaScript and React JS.
                 </p>
               </div>
               <div className="banner-btn">
